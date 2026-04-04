@@ -16,5 +16,14 @@ namespace Proyecto_Demo01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int numero1 = 10;
+            int numero2 = 0;
+            int total = numero1 + numero2;
+
+            textBox1.Text = total.ToString();
+        }
     }
 }
